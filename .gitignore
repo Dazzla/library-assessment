@@ -50,6 +50,7 @@ screenshots/
 coverage/
 nyc_output/
 
+
 # macOS specific
 .DS_Store
 

@@ -1,0 +1,31 @@
+{
+  "name": "library-assessment",
+  "version": "1.0.0",
+  "description": "This repo contains end-to-end tests for the **Books Inventory Application** using **Playwright** and **TypeScript**.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dazzla/library-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dazzla/library-assessment/issues"
+  },
+  "homepage": "https://github.com/Dazzla/library-assessment#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  }
+}
